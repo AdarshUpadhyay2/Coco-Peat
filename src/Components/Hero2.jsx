@@ -23,11 +23,7 @@ const Hero2 = ({ product }) => {
         {selectedSlides.map((slide, index) => (
           <div className="relative" key={index}>
             <img
-<<<<<<< HEAD
               className="w-full h-[80vh] object-cover"
-=======
-              className="w-full h-[60vh] object-cover"
->>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
               src={slide.imgSrc}
               alt={slide.title}
             />

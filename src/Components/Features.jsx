@@ -9,11 +9,8 @@ const Features = () => {
             Our Features
           </h2>
           <p class="mt-4 text-xl font-semibold lg:text-2xl leading-7 text-textGreen sm:mt-8">
-<<<<<<< HEAD
-            Lorem ipsum dolor sit amet, consectetur adipis elit
-=======
-          Explore the key benefits of KoreAgro’s eco-friendly and sustainable solutions
->>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
+            Explore the key benefits of KoreAgro’s eco-friendly and sustainable
+            solutions
           </p>
         </div>
 
@@ -197,12 +194,8 @@ const Features = () => {
               Natural Process
             </h3>
             <p class="mt-5 text-base text-gray-600 font-pj">
-<<<<<<< HEAD
-              Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec,
-              proin faucibus nibh et sagittis a. Lacinia purus ac amet.
-=======
-            Sourced from renewable coconut plantations, our coco peat is processed naturally with minimal environmental impact
->>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
+              Sourced from renewable coconut plantations, our coco peat is
+              processed naturally with minimal environmental impact
             </p>
           </div>
 
@@ -262,12 +255,8 @@ const Features = () => {
               Organic Products
             </h3>
             <p class="mt-5 text-base text-gray-600 font-pj">
-<<<<<<< HEAD
-              Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec,
-              proin faucibus nibh et sagittis a. Lacinia purus ac amet.
-=======
-            Our coco peat is purely organic, enhancing plant growth and sustainability without any synthetic additives.
->>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
+              Our coco peat is purely organic, enhancing plant growth and
+              sustainability without any synthetic additives.
             </p>
           </div>
 
@@ -327,13 +316,9 @@ const Features = () => {
               Biologically Safe
             </h3>
             <p class="mt-5 text-base text-gray-600 font-pj">
-<<<<<<< HEAD
-              Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec,
-              proin faucibus nibh et sagittis a. Lacinia purus ac amet.
+              Infused with Trichoderma microbes, our coco peat protects plants
+              from harmful pathogens while promoting healthy growth.{" "}
             </p>
-=======
-            Infused with Trichoderma microbes, our coco peat protects plants from harmful pathogens while promoting healthy growth.            </p>
->>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
           </div>
         </div>
       </div>
