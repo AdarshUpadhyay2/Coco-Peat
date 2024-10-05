@@ -122,7 +122,7 @@ const ProductFile = [
   },
   {
     id: 4,
-    name: "Coco Substrate Fine/Coarse",
+    name: "Coco Substrate Fine or Coarse",
     brand: "KoreAgro",
     description:
       "KoreAgro Coco substrate is produced from coconut husks as a by-product of fibre extraction. It is triple washed to remove excess water-soluble salts and other impurities and aged properly. Coco substrate is free from weeds, pesticide, and foreign materials. It is 100% bio-degradable and eco-friendly.",

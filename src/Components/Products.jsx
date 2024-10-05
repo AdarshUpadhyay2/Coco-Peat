@@ -30,14 +30,14 @@ const Products = () => {
     },
     {
       id: 3,
-      name: "Coco Husk Chip Mix",
+      name: "Coco Substrate Husk Chip Mix",
       price: 299.0,
       category: "Coco Substrates",
       image: "/img/Product/CocoSubstrates/husk-chip-mix.png",
     },
     {
       id: 4,
-      name: "Coco Substrate Fine/Coarse",
+      name: "Coco Substrate Fine or Coarse",
       price: 299.0,
       category: "Coco Substrates",
       image: "/img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
@@ -58,7 +58,7 @@ const Products = () => {
     },
     {
       id: 7,
-      name: "GrowBags Open Top",
+      name: "Open Top GrowBags",
       price: 299.0,
       category: "Growbags",
       image: "/img/Product/GrowBags/OpenTop.png",
@@ -100,14 +100,14 @@ const Products = () => {
     },
     {
       id: 13,
-      name: "Coco Disks",
+      name: "Coco Tabs or Disk",
       price: 299.0,
       category: "Garden Articles",
       image: "/img/Product/GardenArticles/CocoDisks.png",
     },
     {
       id: 14,
-      name: "Coco Growkit",
+      name: "Growkit",
       price: 299.0,
       category: "Garden Articles",
       image: "/img/Product/GardenArticles/CocoGrowKit.webp",
