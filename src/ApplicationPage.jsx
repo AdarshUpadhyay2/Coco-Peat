@@ -10,7 +10,6 @@ const ApplicationPage = () => {
     <div>
       <Header />
       <ApplicationDetails />
-      <Products />
       <MapSection />
       <Footer />
     </div>
