@@ -55,7 +55,7 @@ const ApplicationDetails = () => {
           </div>
         )}
       </section>
-      <Products cat={prod.category} />
+      {prod && <Products cat={prod.category} />}
     </>
   );
 };
