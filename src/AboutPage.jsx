@@ -1,9 +1,6 @@
 import React from "react";
 import Header from "./Components/Header";
-import Hero from "./Components/Hero";
-import Products from "./Components/Products";
-import Features from "./Components/Features";
-import MapSection from "./Components/MapSection";
+import Hero3 from "./Components/Hero3";
 import Footer from "./Components/Footer";
 import AboutUs from "./Components/AboutUs";
 
@@ -11,7 +8,7 @@ const AboutPage = () => {
   return (
     <div>
       <Header />
-      <Hero />
+      <Hero3 product={"About Us"} />
       <AboutUs />
       <Footer />
     </div>

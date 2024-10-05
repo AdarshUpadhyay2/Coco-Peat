@@ -185,6 +185,18 @@ const slides = {
       title: "Natural plant protection",
     },
   ],
+  "About Us": [
+    {
+      imgSrc: "/img/Slides/AboutUs.jpg",
+      title: "",
+    },
+  ],
+  "Contact Us": [
+    {
+      imgSrc: "/img/Slides/ContactUs.jpg",
+      title: "",
+    },
+  ],
   "Coco Disks": [
     {
       imgSrc: "/img/Slides/slide25.jpg",
