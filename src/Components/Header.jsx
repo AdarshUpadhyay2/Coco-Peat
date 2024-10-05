@@ -54,6 +54,8 @@ const Header = () => {
     setHamburgerMenuOpen((prev) => !prev);
   };
 
+  const slugify = (name) => name.toLowerCase().replace(/ /g, "-");
+
   return (
     <>
       {/* Small Header */}
@@ -106,7 +108,7 @@ const Header = () => {
             {/* Instagram */}
             <li>
               <a
-                href="https://www.instagram.com/kore_agro/?igsh=N3VsYXMyNGQ0bHB1"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footerGreen text-lg transition-all duration-200 hover:text-[#E1306C]"
@@ -117,7 +119,7 @@ const Header = () => {
             {/* LinkedIn */}
             <li>
               <a
-                href="https://www.linkedin.com/company/kore-international/posts/?feedView=all"
+                href="https://www.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footerGreen text-lg transition-all duration-200 hover:text-[#0077B5]"
@@ -135,7 +137,7 @@ const Header = () => {
           isSmallHeaderVisible ? "top-[35px]" : "top-0"
         }`}
       >
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-full">
           <div className="flex items-center justify-between h-16 lg:h-[80px]">
             <div className="flex items-center flex-shrink-0 ml-1 lg:ml-0">
               <Link to="/" title="" className="inline-flex">
@@ -206,7 +208,7 @@ const Header = () => {
                   ].map((item, index) => (
                     <React.Fragment key={index}>
                       <Link
-                        to={`/application/${index + 1}`}
+                        to={`/application/${slugify(item)}`}
                         className="block px-4 py-2 text-sm text-white hover:bg-hoverGreen hover:text-footerGreen"
                       >
                         {item}
@@ -261,7 +263,7 @@ const Header = () => {
                   ].map((item, index) => (
                     <React.Fragment key={index}>
                       <Link
-                        to={`/product/${index + 19}`}
+                        to={`/product/${slugify(item)}`}
                         className="block px-4 py-2 text-sm text-white hover:bg-hoverGreen hover:text-footerGreen"
                       >
                         {item}
@@ -350,7 +352,7 @@ const Header = () => {
                     "Natural Plant Protection",
                   ].map((item, index) => (
                     <Link
-                      to={`/application/${index + 1}`}
+                      to={`/application/${slugify(item)}`}
                       className="block py-1 text-white"
                       key={index}
                       onClick={() => setHamburgerMenuOpen(false)}
@@ -384,7 +386,7 @@ const Header = () => {
                     "Plant Protection",
                   ].map((item, index) => (
                     <Link
-                      to={`/product/${index + 19}`}
+                      to={`/product/${slugify(item)}`}
                       className="block py-1 text-white"
                       key={index}
                       onClick={() => setHamburgerMenuOpen(false)}

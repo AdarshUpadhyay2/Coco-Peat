@@ -5,40 +5,43 @@ import ProductSuitableFor from "./ProductSuitableFor";
 import ProductBenefits from "./ProductBenefits";
 import Hero2 from "./Hero2";
 import Products from "./Products";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
-const ProductDetails = ({ applicationId }) => {
-  // State to keep track of the selected subcategory and product
+const ApplicationDetails = () => {
+  const { applicationName } = useParams();
   const navigate = useNavigate();
   const [prod, setProd] = useState(null);
 
   useEffect(() => {
-    // Find the product based on the applicationId from the URL
+    // Normalize product name by replacing hyphens with spaces and converting to lowercase
+    const normalizedApplicationName = applicationName
+      .replace(/-/g, " ")
+      .toLowerCase();
+
     const foundProduct = applicationData.find(
-      (pro) => pro.id === Number(applicationId)
+      (pro) => pro.name.toLowerCase() === normalizedApplicationName // Match by normalized product name
     );
     setProd(foundProduct);
-  }, [applicationId]);
+  }, [applicationName]);
+
+  useEffect(() => {
+    if (prod) {
+      const applicationUrlName = prod.name.replace(/\s+/g, "-").toLowerCase();
+      navigate(`/application/${applicationUrlName}`);
+    }
+  }, [prod]);
 
   return (
     <>
-      {/* Update Hero2 with product information or selected subcategory */}
       <Hero2 product={prod} />
-      <section className=" flex flex-col items-center text-gray-700 body-font overflow-hidden">
-        {/* Product Image and Details */}
+      <section className="flex flex-col items-center text-gray-700 body-font overflow-hidden">
         {prod ? (
-          <div className="w-2/3 flex flex-col pl-6">
-            {/* Product Details */}
+          <div className="w-11/12 flex flex-col pl-6">
             <div className="w-full pt-6">
-              {/* Product Description */}
               {prod.description && <ProductDescription product={prod} />}
-
-              {/* Suitable For */}
               {prod.suitableFor && prod.suitableFor.length > 0 && (
                 <ProductSuitableFor product={prod} />
               )}
-
-              {/* Benefits */}
               {prod.benefits && prod.benefits.length > 0 && (
                 <ProductBenefits product={prod} />
               )}
@@ -57,4 +60,4 @@ const ProductDetails = ({ applicationId }) => {
   );
 };
 
-export default ProductDetails;
+export default ApplicationDetails;

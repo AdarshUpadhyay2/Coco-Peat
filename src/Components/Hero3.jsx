@@ -5,8 +5,7 @@ import slides from "./Slides.jsx";
 
 const Hero2 = ({ product }) => {
   // Get slides for the selected category or use default slides
-  const selectedSlides =
-    (product && slides[product.name]) || slides["Coco Disks"]; // Default to Coco Peat
+  const selectedSlides = (product && slides[product]) || slides["Coco Disks"]; // Default to Coco Peat
 
   return (
     <div className="container-fluid p-0 mb-5">
@@ -27,7 +26,7 @@ const Hero2 = ({ product }) => {
               src={slide.imgSrc}
               alt={slide.title}
             />
-            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center">
               <div className="text-center">
                 <h1 className="text-white text-5xl md:text-6xl font-bold mb-5 animate-slideInDown">
                   {slide.title}

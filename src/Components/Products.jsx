@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const Products = () => {
+const Products = ({ cat = "Coco Substrates" }) => {
   // Sample categories
   const categories = [
     "Coco Substrates",
@@ -19,155 +19,139 @@ const Products = () => {
       name: "Coco Substrate Custom Mix",
       price: 99.0,
       category: "Coco Substrates",
-      image:
-        "../../img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
+      image: "/img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
     },
     {
       id: 2,
       name: "Coco Substrate Fiber",
-      price: 299.0, 
+      price: 299.0,
       category: "Coco Substrates",
-      image:
-        "../../img/Product/CocoSubstrates/CocoSubstrateFiber.png",
+      image: "/img/Product/CocoSubstrates/CocoSubstrateFiber.png",
     },
     {
       id: 3,
-      name: "Coco Husk Chip Mix",
+      name: "Coco Substrate Husk Chip Mix",
       price: 299.0,
       category: "Coco Substrates",
-      image:
-        "../../img/Product/CocoSubstrates/husk-chip-mix.png",
+      image: "/img/Product/CocoSubstrates/husk-chip-mix.png",
     },
     {
       id: 4,
-      name: "Coco Substrate Fine/Coarse",
+      name: "Coco Substrate Fine or Coarse",
       price: 299.0,
       category: "Coco Substrates",
-      image:
-        "../../img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
+      image: "/img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
     },
     {
       id: 5,
       name: "Coco Substrates Buffered",
       price: 299.0,
       category: "Coco Substrates",
-      image:
-        "../../img/Product/CocoSubstrates/CocoSubstratesBuffered.png",
+      image: "/img/Product/CocoSubstrates/CocoSubstratesBuffered.png",
     },
     {
       id: 6,
       name: "GrowBags Bar Type",
       price: 299.0,
       category: "Growbags",
-      image:
-        "../../img/Product/GrowBags/BarType.png",
+      image: "/img/Product/GrowBags/BarType.png",
     },
     {
       id: 7,
-      name: "GrowBags Open Top",
+      name: "Open Top GrowBags",
       price: 299.0,
       category: "Growbags",
-      image:
-        "../../img/Product/GrowBags/OpenTop.png",
+      image: "/img/Product/GrowBags/OpenTop.png",
     },
     {
       id: 8,
       name: "Coir Fiber Bales",
       price: 299.0,
       category: "Coir Fiber",
-      image:
-        "../../img/Product/CoirFiber/Bales.png",
+      image: "/img/Product/CoirFiber/Bales.png",
     },
     {
       id: 9,
       name: "Coir Fiber Twisted Spool",
       price: 299.0,
       category: "Coir Fiber",
-      image:
-        "../../img/Product/CoirFiber/TwistedSpool.png",
+      image: "/img/Product/CoirFiber/TwistedSpool.png",
     },
     {
       id: 10,
       name: "Coco Basket",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "../../img/Product/GardenArticles/CocoBasket.png",
+      image: "/img/Product/GardenArticles/CocoBasket.png",
     },
     {
       id: 11,
       name: "Coco Bricks",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "../../img/Product/GardenArticles/CocoBricks.png",
+      image: "/img/Product/GardenArticles/CocoBricks.png",
     },
     {
       id: 12,
       name: "Coco Pot",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "../../img/Product/GardenArticles/CocoPot.png",
+      image: "/img/Product/GardenArticles/CocoPot.png",
     },
     {
       id: 13,
-      name: "Coco Disks",
+      name: "Coco Tabs or Disk",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "../../img/Product/GardenArticles/CocoDisks.png",
+      image: "/img/Product/GardenArticles/CocoDisks.png",
     },
     {
       id: 14,
-      name: "Coco Growkit",
+      name: "Growkit",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "../../img/Product/GardenArticles/CocoGrowKit.webp",
+      image: "/img/Product/GardenArticles/CocoGrowKit.webp",
     },
     {
       id: 15,
       name: "Coir Logs",
       price: 299.0,
       category: "Erosion Control",
-      image:
-        "../../img/Product/ErosionControl/CoirLogs.png",
+      image: "/img/Product/ErosionControl/CoirLogs.png",
     },
     {
       id: 16,
       name: "Geo Textiles",
       price: 299.0,
       category: "Erosion Control",
-      image:
-        "../../img/Product/ErosionControl/GeoTextiles.png",
+      image: "/img/Product/ErosionControl/GeoTextiles.png",
     },
     {
       id: 17,
       name: "Neem Oil",
       price: 299.0,
       category: "Plant Protection",
-      image:
-        "../../img/Product/PlantProtection/NeemOil.png",
+      image: "/img/Product/PlantProtection/NeemOil.png",
     },
     {
       id: 18,
       name: "Neem Seed Powder",
       price: 299.0,
       category: "Plant Protection",
-      image:
-        "../../img/Product/PlantProtection/NeemSeedPowder.png",
+      image: "/img/Product/PlantProtection/NeemSeedPowder.png",
     },
-  ];  
+  ];
 
-  const [selectedCategory, setSelectedCategory] = useState("Coco Substrates");
-
+  const [selectedCategory, setSelectedCategory] = useState(cat);
   // Filter products based on selected category
-  const filteredProducts =
-    selectedCategory === "All"
-      ? productData
-      : productData.filter((product) => product.category === selectedCategory);
+  const filteredProducts = productData.filter(
+    (product) => product.category === selectedCategory
+  );
+  useEffect(() => {
+    setSelectedCategory(cat); // Update the selected category when cat changes
+  }, [cat]);
 
+  const slugify = (name) => name.toLowerCase().replace(/ /g, "-");
   return (
     <section className="py-12 mx-auto sm:py-16 lg:py-20">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -188,7 +172,7 @@ const Products = () => {
               onClick={() => setSelectedCategory(category)}
               className={`mx-4 my-4 px-4 py-2 rounded-full ${
                 selectedCategory === category
-                  ? "bg-footerGreen text-white"
+                  ? "bg-buttonBrown text-white"
                   : "bg-buttonGreen text-white"
               }`}
             >
@@ -208,14 +192,17 @@ const Products = () => {
                 />
               </div>
               <div className="absolute left-3 top-3">
-                <p className="sm:px-3 sm:py-1.5 px-1.5 py-1 text-[8px] sm:text-xs font-bold tracking-wide text-gray-900 uppercase bg-white rounded-full">
+                <p className="sm:px-3 sm:py-1.5 px-1.5 py-1 text-[8px] sm:text-xs font-bold tracking-wide text-gray-900 uppercase bg-tagGreen rounded-full">
                   New
                 </p>
               </div>
               <div className="flex items-start justify-center mt-4 space-x-4">
                 <div>
                   <h3 className="text-xs font-bold text-gray-900 sm:text-sm md:text-base">
-                    <Link to={`/product/${product.id}`} title={product.name}>
+                    <Link
+                      to={`/product/${slugify(product.name)}`}
+                      title={product.name}
+                    >
                       {product.name}
                       <span
                         className="absolute inset-0"

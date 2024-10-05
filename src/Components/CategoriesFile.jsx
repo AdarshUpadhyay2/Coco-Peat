@@ -14,144 +14,126 @@ const productData = [
     name: "Coco Substrate Custom Mix",
     price: 99.0,
     category: "Coco Substrates",
-    image:
-      "../../public/img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
+    image: "../../public/img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
   },
   {
     id: 2,
     name: "Coco Substrate Fiber",
     price: 299.0,
     category: "Coco Substrates",
-    image:
-      "../../public/img/Product/CocoSubstrates/CocoSubstrateFiber.png",
+    image: "../../public/img/Product/CocoSubstrates/CocoSubstrateFiber.png",
   },
   {
     id: 3,
     name: "Coco Husk Chip Mix",
     price: 299.0,
     category: "Coco Substrates",
-    image:
-      "../../public/img/Product/CocoSubstrates/husk-chip-mix.png",
+    image: "../../public/img/Product/CocoSubstrates/husk-chip-mix.png",
   },
   {
     id: 4,
     name: "Coco Substrate Fine/Coarse",
     price: 299.0,
     category: "Coco Substrates",
-    image:
-      "../../public/img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
+    image: "../../public/img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
   },
   {
     id: 5,
     name: "Coco Substrates Buffered",
     price: 299.0,
     category: "Coco Substrates",
-    image:
-      "../../public/img/Product/CocoSubstrates/CocoSubstratesBuffered.png",
+    image: "../../public/img/Product/CocoSubstrates/CocoSubstratesBuffered.png",
   },
   {
     id: 6,
     name: "GrowBags Bar Type",
     price: 299.0,
     category: "Growbags",
-    image:
-      "../../public/img/Product/GrowBags/BarType.png",
+    image: "../../public/img/Product/GrowBags/BarType.png",
   },
   {
     id: 7,
     name: "GrowBags Open Top",
     price: 299.0,
     category: "Growbags",
-    image:
-      "../../public/img/Product/GrowBags/OpenTop.png",
+    image: "../../public/img/Product/GrowBags/OpenTop.png",
   },
   {
     id: 8,
     name: "Coir Fiber Bales",
     price: 299.0,
     category: "Coir Fiber",
-    image:
-      "../../public/img/Product/CoirFiber/Bales.png",
+    image: "../../public/img/Product/CoirFiber/Bales.png",
   },
   {
     id: 9,
     name: "Coir Fiber Twisted Spool",
     price: 299.0,
     category: "Coir Fiber",
-    image:
-      "../../public/img/Product/CoirFiber/TwistedSpool.png",
+    image: "../../public/img/Product/CoirFiber/TwistedSpool.png",
   },
   {
     id: 10,
     name: "Coco Basket",
     price: 299.0,
     category: "Garden Articles",
-    image:
-      "../../public/img/Product/GardenArticles/CocoBasket.png",
+    image: "../../public/img/Product/GardenArticles/CocoBasket.png",
   },
   {
     id: 11,
     name: "Coco Bricks",
     price: 299.0,
     category: "Garden Articles",
-    image:
-      "../../public/img/Product/GardenArticles/CocoBricks.png",
+    image: "../../public/img/Product/GardenArticles/CocoBricks.png",
   },
   {
     id: 12,
     name: "Coco Pot",
     price: 299.0,
     category: "Garden Articles",
-    image:
-      "../../public/img/Product/GardenArticles/CocoPot.png",
+    image: "../../public/img/Product/GardenArticles/CocoPot.png",
   },
   {
     id: 13,
     name: "Coco Disks",
     price: 299.0,
     category: "Garden Articles",
-    image:
-      "../../public/img/Product/GardenArticles/CocoDisks.png",
+    image: "../../public/img/Product/GardenArticles/CocoDisks.png",
   },
   {
     id: 14,
     name: "Coco Growkit",
     price: 299.0,
     category: "Garden Articles",
-    image:
-      "../../public/img/Product/GardenArticles/CocoGrowKit.webp",
+    image: "../../public/img/Product/GardenArticles/CocoGrowKit.webp",
   },
   {
     id: 15,
     name: "Coir Logs",
     price: 299.0,
     category: "Erosion Control",
-    image:
-      "../../public/img/Product/ErosionControl/CoirLogs.png",
+    image: "../../public/img/Product/ErosionControl/CoirLogs.png",
   },
   {
     id: 16,
     name: "Geo Textiles",
     price: 299.0,
     category: "Erosion Control",
-    image:
-      "../../public/img/Product/ErosionControl/GeoTextiles.png",
+    image: "../../public/img/Product/ErosionControl/GeoTextiles.png",
   },
   {
     id: 17,
     name: "Neem Oil",
     price: 299.0,
     category: "Plant Protection",
-    image:
-      "../../public/img/Product/PlantProtection/NeemOil.png",
+    image: "../../public/img/Product/PlantProtection/NeemOil.png",
   },
   {
     id: 18,
     name: "Neem Seed Powder",
     price: 299.0,
     category: "Plant Protection",
-    image:
-      "../../public/img/Product/PlantProtection/NeemSeedPowder.png",
+    image: "../../public/img/Product/PlantProtection/NeemSeedPowder.png",
   },
 ];
 

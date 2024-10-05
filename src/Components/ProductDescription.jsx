@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductDescription = ({ product }) => {
   return (
-    <>
+    <div className="px-5">
       <h2 className="text-sm title-font text-green-600 tracking-widest">
         {product.brand}
       </h2>
@@ -15,7 +15,7 @@ const ProductDescription = ({ product }) => {
       <p className="leading-relaxed text-justify text-gray-600">
         {product.additionalInfo}
       </p>
-    </>
+    </div>
   );
 };
 

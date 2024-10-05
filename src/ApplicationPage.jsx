@@ -6,11 +6,10 @@ import MapSection from "./Components/MapSection";
 import ApplicationDetails from "./Components/ApplicationDetails";
 import Products from "./Components/Products";
 const ApplicationPage = () => {
-  const { applicationId } = useParams();
   return (
     <div>
       <Header />
-      <ApplicationDetails applicationId={applicationId} />
+      <ApplicationDetails />
       <Products />
       <MapSection />
       <Footer />

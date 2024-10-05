@@ -68,7 +68,7 @@ const Categories = ({ onSelectSubcategory }) => {
   };
 
   return (
-    <div className="w-1/4 rounded-lg shadow-md mb-8 h-full max-h-[600px] overflow-hidden border-4 border-green-800">
+    <div className="w-3/4 md:w-2/4 lg:w-1/4 rounded-lg shadow-md mb-8 h-full max-h-[600px] overflow-hidden border-4 border-green-800">
       <div className="bg-categoriesHeadingGreen p-4 rounded-t-lg">
         <h2 className="text-xl font-bold text-white flex items-center justify-center">
           {/* <FontAwesomeIcon icon={faLeaf} className="mr-2" /> */}

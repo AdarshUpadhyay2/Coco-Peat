@@ -5,11 +5,10 @@ import Footer from "./Components/Footer";
 import MapSection from "./Components/MapSection";
 import ProductDetails from "./Components/ProductDetails";
 const ProductPage = () => {
-  const { productId } = useParams();
   return (
     <div>
       <Header />
-      <ProductDetails productId={productId} />
+      <ProductDetails />
       <MapSection />
       <Footer />
     </div>

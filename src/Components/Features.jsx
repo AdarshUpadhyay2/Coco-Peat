@@ -9,7 +9,8 @@ const Features = () => {
             Our Features
           </h2>
           <p class="mt-4 text-xl font-semibold lg:text-2xl leading-7 text-textGreen sm:mt-8">
-          Explore the key benefits of KoreAgro’s eco-friendly and sustainable solutions
+            Explore the key benefits of KoreAgro’s eco-friendly and sustainable
+            solutions
           </p>
         </div>
 
@@ -193,7 +194,8 @@ const Features = () => {
               Natural Process
             </h3>
             <p class="mt-5 text-base text-gray-600 font-pj">
-            Sourced from renewable coconut plantations, our coco peat is processed naturally with minimal environmental impact
+              Sourced from renewable coconut plantations, our coco peat is
+              processed naturally with minimal environmental impact
             </p>
           </div>
 
@@ -253,7 +255,8 @@ const Features = () => {
               Organic Products
             </h3>
             <p class="mt-5 text-base text-gray-600 font-pj">
-            Our coco peat is purely organic, enhancing plant growth and sustainability without any synthetic additives.
+              Our coco peat is purely organic, enhancing plant growth and
+              sustainability without any synthetic additives.
             </p>
           </div>
 
@@ -313,7 +316,9 @@ const Features = () => {
               Biologically Safe
             </h3>
             <p class="mt-5 text-base text-gray-600 font-pj">
-            Infused with Trichoderma microbes, our coco peat protects plants from harmful pathogens while promoting healthy growth.            </p>
+              Infused with Trichoderma microbes, our coco peat protects plants
+              from harmful pathogens while promoting healthy growth.{" "}
+            </p>
           </div>
         </div>
       </div>

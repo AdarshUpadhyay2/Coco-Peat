@@ -16,7 +16,8 @@ const Footer = () => {
               alt="Company Logo"
             />
             <p className="text-base leading-relaxed text-white mt-7 text-center">
-            KoreAgro delivers sustainable solutions with renewable coco and coir products designed for the horticultural industry.
+              KoreAgro delivers sustainable solutions with renewable coco and
+              coir products designed for the horticultural industry.
             </p>
             <ul className="flex items-center space-x-4 mt-9 justify-center">
               {/* Facebook */}
@@ -76,7 +77,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center text-base text-white">
                 <i className="fas fa-envelope mr-4"></i>
-                info@example.com
+                tech@koreagro.com
               </li>
             </ul>
           </div>
@@ -95,7 +96,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/application/1"
+                  to="/application/substrate-manufacturing"
                   className="flex text-base text-white transition-all duration-200 hover:text-blue-600"
                 >
                   Application
@@ -103,7 +104,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/product/19"
+                  to="/product/coco-substrates"
                   className="flex text-base text-white transition-all duration-200 hover:text-blue-600"
                 >
                   Product
