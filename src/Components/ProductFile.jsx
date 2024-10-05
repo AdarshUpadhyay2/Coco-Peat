@@ -25,7 +25,6 @@ const ProductFile = [
     price: 20.0,
     images: [
       "img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
-      "img/Product/CocoSubstrates/img1.webp",
       "img/Product/CocoSubstrates/img2.png",
     ],
     application: [
