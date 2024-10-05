@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body::-webkit-scrollbar { width: 0 !important; }
+body { overflow: -moz-scrollbars-none; }
+body { -ms-overflow-style: none; }
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/coconut2.jpeg') !important;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: repeat !important;
+  opacity: 0.08; /* Adjust opacity to make the image lighter */
+  z-index: -1; /* Make sure it stays behind the content */
+}
