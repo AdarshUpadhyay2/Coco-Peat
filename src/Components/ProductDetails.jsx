@@ -94,7 +94,7 @@ const ProductDetails = () => {
           )}
         </div>
       </section>
-      {prod && prod.id > 18 && <Products />}
+      {prod && prod.id > 18 && <Products cat={prod.name} />}
     </>
   );
 };

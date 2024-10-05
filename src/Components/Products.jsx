@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const Products = () => {
+const Products = ({ cat = "Coco Substrates" }) => {
   // Sample categories
   const categories = [
     "Coco Substrates",
@@ -142,13 +142,14 @@ const Products = () => {
     },
   ];
 
-  const [selectedCategory, setSelectedCategory] = useState("Coco Substrates");
-
+  const [selectedCategory, setSelectedCategory] = useState(cat);
   // Filter products based on selected category
-  const filteredProducts =
-    selectedCategory === "All"
-      ? productData
-      : productData.filter((product) => product.category === selectedCategory);
+  const filteredProducts = productData.filter(
+    (product) => product.category === selectedCategory
+  );
+  useEffect(() => {
+    setSelectedCategory(cat); // Update the selected category when cat changes
+  }, [cat]);
 
   const slugify = (name) => name.toLowerCase().replace(/ /g, "-");
   return (
