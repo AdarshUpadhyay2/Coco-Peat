@@ -2,9 +2,9 @@ const ProductFile = [
   {
     id: 1,
     name: "Coco Substrate Custom Mix",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Coco substrate is produced from coconut husks as a by-product of fiber extraction. It is triple washed to remove excessive water-soluble salts and other impurities and aged properly.",
+      "KoreAgro Coco substrate is produced from coconut husks as a by-product of fiber extraction. It is triple washed to remove excessive water-soluble salts and other impurities and aged properly.",
     additionalInfo:
       "Coco substrate can be mixed with short coconut fiber and husk chip pieces in any ratio as per customer specification to enhance hydration, water drainage, porosity, and aeration depending on the application.",
     specifications: [
@@ -24,8 +24,9 @@ const ProductFile = [
     ],
     price: 20.0,
     images: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCK7_cvBSp06vfjhdu-eEx-j9pNYp3l8N5EQ&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbPKixwPiVz_Lc1oKtd7zrOyFHmgukQ68bKA&s",
+      "img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
+      "img/Product/CocoSubstrates/img1.webp",
+      "img/Product/CocoSubstrates/img2.png",
     ],
     application: [
       "Horticultural applications for enhanced soil hydration and drainage.",
@@ -49,9 +50,9 @@ const ProductFile = [
   {
     id: 2,
     name: "Coco Substrate Fiber",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Coco substrate is produced from coconut husks as a by-product of fibre extraction. It is triple washed to remove excessive water-soluble salts and other impurities and aged properly. It is free from weeds, pesticide, foreign materials and 100% bio-degradable and eco-friendly. Then short coconut fibre pieces are added to the substrate to enhance water drainage and porosity properties.",
+      "KoreAgro Coco substrate is produced from coconut husks as a by-product of fibre extraction. It is triple washed to remove excessive water-soluble salts and other impurities and aged properly. It is free from weeds, pesticide, foreign materials and 100% bio-degradable and eco-friendly. Then short coconut fibre pieces are added to the substrate to enhance water drainage and porosity properties.",
     additionalInfo:
       "Coco substrate fibre is used as a soil enhancing medium in horticultural applications to improve water drainage, porosity, and aeration of the soil for better root growth.",
     specifications: [
@@ -67,9 +68,7 @@ const ProductFile = [
       { property: "Moisture", value: "15%" },
     ],
     price: 15.0,
-    images: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvShLkHn0CMqTk8Wb0ZiM3rUo93oe1RLBKag&s",
-    ],
+    images: ["img/Product/CocoSubstrates/CocoSubstrateFiber.png"],
     application: [
       "Ideal for improving soil aeration and drainage in horticulture.",
       "Used as a component in potting mixes.",
@@ -88,9 +87,9 @@ const ProductFile = [
   {
     id: 3,
     name: "Coco Substrate Husk Chip Mix",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Coco substrate is produced from coconut husks as a by-product of fibre extraction. It is triple washed to remove excess water-soluble salts and other impurities and aged properly. It is free from weeds, pesticide, foreign materials and 100% bio-degradable and eco-friendly. Then short coconut husk chip pieces are added to substrate to enhance hydration properties. Particularly, husk chip pieces absorb water and release it slowly to plant roots while also increasing water drainage and reducing root decay through water stagnation.",
+      "KoreAgro Coco substrate is produced from coconut husks as a by-product of fibre extraction. It is triple washed to remove excess water-soluble salts and other impurities and aged properly. It is free from weeds, pesticide, foreign materials and 100% bio-degradable and eco-friendly. Then short coconut husk chip pieces are added to substrate to enhance hydration properties. Particularly, husk chip pieces absorb water and release it slowly to plant roots while also increasing water drainage and reducing root decay through water stagnation.",
     additionalInfo:
       "Coco substrate husk chips are used as a soil enhancing medium in horticultural applications to improve hydration, water drainage, and aeration of the soil for better root growth.",
     specifications: [
@@ -105,7 +104,7 @@ const ProductFile = [
     ],
     price: 18.0,
     images: [
-      "https://kokosflora.com/wp-content/uploads/2019/11/banner_about.jpg", // Replace with an actual image URL
+      "img/Product/CocoSubstrates/husk-chip-mix.png", // Replace with an actual image URL
     ],
     application: [
       "Enhances water retention and drainage for optimal root growth.",
@@ -124,10 +123,10 @@ const ProductFile = [
   },
   {
     id: 4,
-    name: "Coco substrate fine/coarse",
-    brand: "Kokosflora",
+    name: "Coco Substrate Fine/Coarse",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Coco substrate is produced from coconut husks as a by-product of fibre extraction. It is triple washed to remove excess water-soluble salts and other impurities and aged properly. Coco substrate is free from weeds, pesticide, and foreign materials. It is 100% bio-degradable and eco-friendly.",
+      "KoreAgro Coco substrate is produced from coconut husks as a by-product of fibre extraction. It is triple washed to remove excess water-soluble salts and other impurities and aged properly. Coco substrate is free from weeds, pesticide, and foreign materials. It is 100% bio-degradable and eco-friendly.",
     additionalInfo:
       "Coco substrate fine can be used as a soil enhancing medium in horticultural applications to improve hydration (water retention) and aeration for better root growth.",
     specifications: [
@@ -147,7 +146,7 @@ const ProductFile = [
     ],
     price: 17.0,
     images: [
-      "https://example.com/coco_fine_image.jpg", // Replace with an actual image URL
+      "img/Product/CocoSubstrates/cooc-fine-coarses.jpeg", // Replace with an actual image URL
     ],
     application: [
       "Used for improving soil hydration and aeration.",
@@ -170,10 +169,10 @@ const ProductFile = [
   },
   {
     id: 5,
-    name: "Coco substrates buffered",
-    brand: "Kokosflora",
+    name: "Coco Substrates Buffered",
+    brand: "KoreAgro",
     description:
-      "Kokosflora offers professional cultivators with highly balanced coco substrates with stabilised pH and Cation Exchange Capacity (CEC) enriched with Calcium and Magnesium. Coco substrate is abundantly enriched with Potassium (K) and Sodium (Na) but contains poor Calcium (Ca) and Magnesium (Mg). This nutrient imbalance in CEC is rectified by treating Coco substrate with Calcium Nitrate and Magnesium salt solution to replace excessive Potassium and Sodium cations with desired Calcium and Magnesium cations. This buffering process helps get balanced minerals that are essential for healthy plant growth and yield.",
+      "KoreAgro offers professional cultivators with highly balanced coco substrates with stabilised pH and Cation Exchange Capacity (CEC) enriched with Calcium and Magnesium. Coco substrate is abundantly enriched with Potassium (K) and Sodium (Na) but contains poor Calcium (Ca) and Magnesium (Mg). This nutrient imbalance in CEC is rectified by treating Coco substrate with Calcium Nitrate and Magnesium salt solution to replace excessive Potassium and Sodium cations with desired Calcium and Magnesium cations. This buffering process helps get balanced minerals that are essential for healthy plant growth and yield.",
     additionalInfo: "",
     specifications: [
       { property: "Material", value: "Coco Peat" },
@@ -192,7 +191,7 @@ const ProductFile = [
     ],
     price: 16.0,
     images: [
-      "https://example.com/chips_image.jpg", // Replace with an actual image URL
+      "img/Product/CocoSubstrates/CocoSubstratesBuffered.png", // Replace with an actual image URL
     ],
     application: [
       "Improves drainage and aeration for optimal root growth.",
@@ -211,8 +210,8 @@ const ProductFile = [
   },
   {
     id: 6,
-    name: "Coir fiber bales",
-    brand: "Kokosflora",
+    name: "Coir Fiber Bales",
+    brand: "KoreAgro",
     description:
       "Coir fiber is extracted from green or dry coco husks to produce white fiber or brown fiber respectively.",
     specifications: [
@@ -227,7 +226,7 @@ const ProductFile = [
     ],
     price: 40.0,
     images: [
-      "https://example.com/coir_fiber_bales_image.jpg", // Replace with an actual image URL
+      "img/Product/CoirFiber/Bales.png", // Replace with an actual image URL
     ],
     application: [
       "Used in upholstery.",
@@ -242,8 +241,8 @@ const ProductFile = [
   },
   {
     id: 7,
-    name: "Coir fiber twisted spool",
-    brand: "Kokosflora",
+    name: "Coir Fiber Twisted Spool",
+    brand: "KoreAgro",
     description:
       "Coir fiber is also available as twisted fiber spools for direct feeding into processing machineries at the customer site.",
     specifications: [
@@ -258,7 +257,7 @@ const ProductFile = [
     ],
     price: 35.0,
     images: [
-      "https://example.com/coir_fiber_twisted_spool_image.jpg", // Replace with an actual image URL
+      "img/Product/CoirFiber/TwistedSpool.png", // Replace with an actual image URL
     ],
     application: [
       "Used in upholstery.",
@@ -273,17 +272,17 @@ const ProductFile = [
   },
   {
     id: 8,
-    name: "Coir logs",
-    brand: "Kokosflora",
+    name: "Coir Logs",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Coir logs are made from coir fiber core covered with coir yarn geo-textile used for stabilisation of hill slope, river bank, shoreline, road slope, etc. Coir logs are easy to use and install at the project site. They are environment-friendly and biodegradable but have a life span of 3 to 5 years to provide enough stabilisation support for the soil.",
+      "KoreAgro Coir logs are made from coir fiber core covered with coir yarn geo-textile used for stabilisation of hill slope, river bank, shoreline, road slope, etc. Coir logs are easy to use and install at the project site. They are environment-friendly and biodegradable but have a life span of 3 to 5 years to provide enough stabilisation support for the soil.",
     specifications: [
       { property: "Diameter", value: "30 cm, 40 cm, 50 cm" },
       { property: "Length Options", value: "3 m or 6 m" },
     ],
     price: 25.0, // Adjust price as needed
     images: [
-      "https://example.com/coir_logs_image.jpg", // Replace with an actual image URL
+      "img/Product/ErosionControl/CoirLogs.png", // Replace with an actual image URL
     ],
     application: [
       "Hill slope stabilization.",
@@ -299,10 +298,10 @@ const ProductFile = [
   },
   {
     id: 9,
-    name: "Geo textiles",
-    brand: "Kokosflora",
+    name: "Geo Textiles",
+    brand: "KoreAgro",
     description:
-      "Kokosflora geotextile is made from coir yarn that is woven loosely as a net. It is eco-friendly and fully biodegradable while providing long-lasting erosion control. This makes coir geotextile suitable for soil erosion control and water body conservation applications. The coir yarn net protects loose soil and sediment from draining into water bodies like rivers, canals, ponds, etc.",
+      "KoreAgro geotextile is made from coir yarn that is woven loosely as a net. It is eco-friendly and fully biodegradable while providing long-lasting erosion control. This makes coir geotextile suitable for soil erosion control and water body conservation applications. The coir yarn net protects loose soil and sediment from draining into water bodies like rivers, canals, ponds, etc.",
     specifications: [
       { property: "GSM", value: "400, 700, 900" },
       {
@@ -312,7 +311,7 @@ const ProductFile = [
     ],
     price: 30.0, // Adjust price as needed
     images: [
-      "https://example.com/geotextiles_image.jpg", // Replace with an actual image URL
+      "img/Product/ErosionControl/GeoTextiles.png", // Replace with an actual image URL
     ],
     application: [
       "Reforestation.",
@@ -327,8 +326,8 @@ const ProductFile = [
   },
   {
     id: 10,
-    name: "Coco basket",
-    brand: "Kokosflora",
+    name: "Coco Basket",
+    brand: "KoreAgro",
     description:
       "Coco baskets are made from 100% biodegradable natural coir fiber extracted from coconut. Coir fiber is molded into different basket sizes and coated with natural latex to provide stability. Coco baskets can be used as decorative hanging with flowering plants indoors or outdoors, bringing an exotic rustic décor to the environment.",
     specifications: [
@@ -338,7 +337,7 @@ const ProductFile = [
     ],
     price: 25.0, // Adjust price as needed
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoBasket.png", // Replace with an actual image URL
     ],
     application: [
       "Indoor at home or office.",
@@ -353,10 +352,10 @@ const ProductFile = [
   },
   {
     id: 11,
-    name: "Coco bricks",
-    brand: "Kokosflora",
+    name: "Coco Bricks",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Coco bricks are made from compressed coco substrate and are available as fine, fiber, and husk chips mixes. Upon adding water, coco bricks expand and loosen to become an organic growing medium for plants. Coco substrate as a growing medium offers excellent drainage and aeration properties for healthy seed germination and strong rooting. It is free from pathogens, weeds, and contaminations that affect seed germination. It is very easy to use and highly suitable for home gardening, balcony gardening, and city gardening.",
+      "KoreAgro Coco bricks are made from compressed coco substrate and are available as fine, fiber, and husk chips mixes. Upon adding water, coco bricks expand and loosen to become an organic growing medium for plants. Coco substrate as a growing medium offers excellent drainage and aeration properties for healthy seed germination and strong rooting. It is free from pathogens, weeds, and contaminations that affect seed germination. It is very easy to use and highly suitable for home gardening, balcony gardening, and city gardening.",
     specifications: [
       { property: "Weight", value: "750 g / 5 Kg" },
       {
@@ -370,7 +369,7 @@ const ProductFile = [
       { property: "Moisture", value: "15%" },
     ],
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoBricks.png", // Replace with an actual image URL
     ],
     benefits: [
       "Coco substrate as a growing medium provides optimum drainage and aeration conditions for seed germination.",
@@ -390,8 +389,8 @@ const ProductFile = [
   },
   {
     id: 12,
-    name: "Coco pot",
-    brand: "Kokosflora",
+    name: "Coco Pot",
+    brand: "KoreAgro",
     description:
       "Coco germination pots are made from 100% biodegradable natural coir fiber extracted from coconut. Coir fiber is molded into different pot sizes and coated with natural latex to provide stability. Coco pots (also known as Coir pots) are lightweight and easy to handle. They are suitable for nurseries, commercial plant propagators, and home gardeners. In combination with coco disks/tabs, they make an excellent choice for plant propagation. The coco disk/tab placed inside the coco pot expands upon adding water, filling the pot and becoming growing media for the seed. Later, young saplings in the coco germination pot can be directly planted into the soil, preventing transplant shocks and root damages. The coco germination pot will slowly biodegrade into the soil, becoming manure for the plant, thus saving the environment by avoiding plastic tray pileup in nurseries. Coco pots are also a good choice of décor for indoor spaces, making them eye-catching in homes, offices, balconies, and winter gardens.",
     specifications: [
@@ -405,7 +404,7 @@ const ProductFile = [
       { property: "Bottom diameter (cm)", value: "3.5 / 5 / 7.5 / 11 / 19" },
     ],
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoPot.png", // Replace with an actual image URL
     ],
     benefits: [
       "Coco germination pot with young saplings can be directly planted into soil, avoiding transplantation shocks and root damages.",
@@ -429,9 +428,9 @@ const ProductFile = [
   {
     id: 13,
     name: "Coco Tabs or Disk",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Coco disks (also known as Coco tabs, Coco plugs, or Coco Coins) are made from compressed coco substrate mixes and are primarily used in seed germination. The coco substrate offers excellent drainage and aeration properties for healthy seed germination and strong rooting, being free from pathogens, weeds, and contaminations that affect germination. When used in combination with coco germination pots, Coco disks make an excellent choice for seed germination, plant propagation, and transplantation. The Coco disk placed inside the coco pot expands upon adding water to fill the pot, becoming the growing medium for the seed. Later, young saplings in the coco germination pot can be directly planted into the soil, preventing transplant shocks and root damage. The coco germination pot will biodegrade into the soil, becoming manure for the plant, thus helping to save the environment by avoiding plastic tray pileup in nurseries.",
+      "KoreAgro Coco disks (also known as Coco tabs, Coco plugs, or Coco Coins) are made from compressed coco substrate mixes and are primarily used in seed germination. The coco substrate offers excellent drainage and aeration properties for healthy seed germination and strong rooting, being free from pathogens, weeds, and contaminations that affect germination. When used in combination with coco germination pots, Coco disks make an excellent choice for seed germination, plant propagation, and transplantation. The Coco disk placed inside the coco pot expands upon adding water to fill the pot, becoming the growing medium for the seed. Later, young saplings in the coco germination pot can be directly planted into the soil, preventing transplant shocks and root damage. The coco germination pot will biodegrade into the soil, becoming manure for the plant, thus helping to save the environment by avoiding plastic tray pileup in nurseries.",
     specifications: [
       { property: "Material", value: "Coco substrate washed / buffered" },
       { property: "Diameter (mm)", value: "30 / 40 / 60 / 80 / 100" },
@@ -441,7 +440,7 @@ const ProductFile = [
       },
     ],
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoDisks.png", // Replace with an actual image URL
     ],
     benefits: [
       "Coco substrate provides optimum drainage and aeration conditions for seed germination.",
@@ -465,9 +464,9 @@ const ProductFile = [
   {
     id: 14,
     name: "Growkit",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Growkit is an ideal starter set for young children to introduce them to the wonderful world of gardening. The Growkit set consists of a Coco pot, Coco disk/tab, seeds, and growing instructions. Upon adding water, the Coco disk/tab placed inside the coco pot expands to fill the pot and becomes the growing medium for the seed. Later, the young sapling in the coco germination pot can be directly planted into the soil, preventing transplant shocks and root damages. The coco germination pot will slowly biodegrade into the soil and become manure for the plant.",
+      "KoreAgro Growkit is an ideal starter set for young children to introduce them to the wonderful world of gardening. The Growkit set consists of a Coco pot, Coco disk/tab, seeds, and growing instructions. Upon adding water, the Coco disk/tab placed inside the coco pot expands to fill the pot and becomes the growing medium for the seed. Later, the young sapling in the coco germination pot can be directly planted into the soil, preventing transplant shocks and root damages. The coco germination pot will slowly biodegrade into the soil and become manure for the plant.",
     specifications: [
       {
         property: "Coco pot size (cm)",
@@ -479,7 +478,7 @@ const ProductFile = [
       { property: "Outer cover", value: "Recycled paper" },
     ],
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoGrowKit.png", // Replace with an actual image URL
     ],
     application: [
       "Educational gardening kit for children.",
@@ -498,9 +497,9 @@ const ProductFile = [
   {
     id: 15,
     name: "Growbags Bar Type",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Growbags are made from a coco substrate mix of different types, packed in a UV-treated Polypropylene sheet with plant holes and drip holes. They are highly suitable for growing vegetables, soft fruits, and cut flowers in greenhouse or polyhouse tunnels.",
+      "KoreAgro Growbags are made from a coco substrate mix of different types, packed in a UV-treated Polypropylene sheet with plant holes and drip holes. They are highly suitable for growing vegetables, soft fruits, and cut flowers in greenhouse or polyhouse tunnels.",
     specifications: [
       {
         property: "Substrate mix",
@@ -514,7 +513,7 @@ const ProductFile = [
       },
     ],
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/GrowBags/BarType.png", // Replace with an actual image URL
     ],
     suitableFor: [
       "Vegetables like Tomato, Capsicum, Zucchini, Brinjal, etc.",
@@ -539,9 +538,9 @@ const ProductFile = [
   {
     id: 16,
     name: "Open Top Growbags",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Open Top growbags are an ideal choice as a space-saving growing medium in greenhouse cultivation for growing vegetables and flowers. A coco substrate slab placed inside the bag expands upon adding water to fill the bag. Available in different blends with husk chips and fiber pieces to improve aeration, drainage, and water retention.",
+      "KoreAgro Open Top growbags are an ideal choice as a space-saving growing medium in greenhouse cultivation for growing vegetables and flowers. A coco substrate slab placed inside the bag expands upon adding water to fill the bag. Available in different blends with husk chips and fiber pieces to improve aeration, drainage, and water retention.",
     specifications: [
       {
         property: "Substrate mix",
@@ -564,7 +563,7 @@ const ProductFile = [
       },
     ],
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/GrowBags/OpenTop.png", // Replace with an actual image URL
     ],
     suitableFor: [
       "Vegetables like Tomato, Capsicum, Zucchini, Brinjal, etc.",
@@ -589,12 +588,12 @@ const ProductFile = [
   {
     id: 17,
     name: "Neem Oil",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
       "Neem oil is extracted from cold pressing neem seeds. It has a strong odor and bitter taste, with a brownish-yellow color. Key ingredients of neem oil include Azadirachtin and Nimbin. Azadirachtin is a known biopesticide used to control various pests such as cabbage worms, thrips, whiteflies, mites, fungus gnats, beetles, mealybugs, beet armyworms, aphids, moth larvae, mushroom flies, leafminers, caterpillars, locusts, and nematodes. Azadirachtin is non-toxic to mammals, birds, earthworms, and some beneficial insects. Nimbin is known for its antiseptic, anti-inflammatory, antipyretic, and fungicidal properties and is used in cosmetic and skincare products.",
     specifications: [],
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/PlantProtection/NeemOil.png", // Replace with an actual image URL
     ],
     application: ["Organic farming", "Cosmetic and skincare products"],
     delivery: [
@@ -605,12 +604,12 @@ const ProductFile = [
   {
     id: 18,
     name: "Neem Seed Powder",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
       "Neem seed cake is a by-product of neem oil extraction from neem seeds. It is used as organic manure to enhance soil quality in gardening and contains good antifungal and pest-repellent properties due to residual Azadirachtin and Nimbin. Neem seed cake also stabilizes the alkalinity of soil by releasing organic acids upon decomposition. It is compatible with and supports soil microflora, such as rhizosphere, for better nutrition absorption and root development.",
     specifications: [],
     images: [
-      "https://example.com/coco_basket_image.jpg", // Replace with an actual image URL
+      "img/Product/PlantProtection/NeemSeedPowder.png", // Replace with an actual image URL
     ],
     types: ["Cake", "Powder", "Pellets"],
     application: ["Horticulture", "Organic farming"],
@@ -622,9 +621,9 @@ const ProductFile = [
   {
     id: 19,
     name: "Coco Substrates",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Coco substrates are soil enhancers which are mixed with peat moss to enhance soil characteristics such as drainage, aeration and water holding capacity to promote better root growth in horticultural applications. Kokosflora Coco substrates are also a preferred medium in soilless cultivation directly as it can be used for many cultivation cycles over several years before replacing. Coco substrates are collected as by-product out of coir fiber extraction from dried coconut husks. Hence it is an environment friendly 100% natural growing medium from renewable coconut plantation with no deforestation.  Kokosflora coco substrates are triple washed to remove excessive water soluble salts and other impurities to bring the electrolyte contents within the range.",
+      "KoreAgro Coco substrates are soil enhancers which are mixed with peat moss to enhance soil characteristics such as drainage, aeration and water holding capacity to promote better root growth in horticultural applications. KoreAgro Coco substrates are also a preferred medium in soilless cultivation directly as it can be used for many cultivation cycles over several years before replacing. Coco substrates are collected as by-product out of coir fiber extraction from dried coconut husks. Hence it is an environment friendly 100% natural growing medium from renewable coconut plantation with no deforestation.  KoreAgro coco substrates are triple washed to remove excessive water soluble salts and other impurities to bring the electrolyte contents within the range.",
     benefits: [
       "Coco substrate increases the porosity of the soil mix and promotes air circulation and keeps the soil loose. This leads to better root growth and higher yield",
       "Coco substrate with increases water retention capacity of the soil mix and releases water slowly to the roots",
@@ -636,32 +635,32 @@ const ProductFile = [
   {
     id: 20,
     name: "Coir Fiber",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Coir fibres extracted from coconut husks and available in the length of 10 cm to 20 cm. Coir fiber is known for its structural strength and has good thermal insulation properties. It is a preferred choice of material where structural stability is desired such as premium mattresses, automotive seats, upholsteries. Kokosflora coir fiber is available as fiber bales or twisted fiber spools.",
+      "Coir fibres extracted from coconut husks and available in the length of 10 cm to 20 cm. Coir fiber is known for its structural strength and has good thermal insulation properties. It is a preferred choice of material where structural stability is desired such as premium mattresses, automotive seats, upholsteries. KoreAgro coir fiber is available as fiber bales or twisted fiber spools.",
   },
   {
     id: 21,
     name: "Erosion Control",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora offers coir based soil erosion control products that are environment friendly and manufactured from renewable sources. They are fully biodegradable but at the same time stays long enough to provide firm foundation for vegetation and slope etc.",
+      "KoreAgro offers coir based soil erosion control products that are environment friendly and manufactured from renewable sources. They are fully biodegradable but at the same time stays long enough to provide firm foundation for vegetation and slope etc.",
     additionalInfo:
       "They are primarily used in Re-forestation, Canal restoration, River bank stabilisation, Sediment control, Slope stabilization and Road construction",
   },
   {
     id: 22,
     name: "Garden Articles",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora offers several garden articles made out of coir materials that are suitable for both professional growers and hobby gardeners. Please find our product list below and click on the individual product to explore in detail",
+      "KoreAgro offers several garden articles made out of coir materials that are suitable for both professional growers and hobby gardeners. Please find our product list below and click on the individual product to explore in detail",
   },
   {
     id: 23,
     name: "Growbags",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
-      "Kokosflora Growbags are made from coco substrate mix of different types packed in a UV treated Polypropylene sheet with plant hole / drip holes. Fertilizers can be mixed as per customer specifications. Growbags can also be supplied with customer specified private label.",
+      "KoreAgro Growbags are made from coco substrate mix of different types packed in a UV treated Polypropylene sheet with plant hole / drip holes. Fertilizers can be mixed as per customer specifications. Growbags can also be supplied with customer specified private label.",
     suitableFor: [
       "Vegetables like Tomato, Capsicum, Zucchini, Brinjal, etc.",
       "Leafy vegetables like Spinach, Lettuce, etc.",
@@ -680,7 +679,7 @@ const ProductFile = [
   {
     id: 24,
     name: "Plant Protection",
-    brand: "Kokosflora",
+    brand: "KoreAgro",
     description:
       "We offer Neem (Azadirachta indica) based products that offer natural protection against fungus that damage the roots and other types of pests that infest the plants. Neem contains Azadirachtin and Nimbin. Azadiractin is a known bio pesticide and used to control many type of pests such as cabbage worm, thrips, whiteflies, mites, fungus gnats, beetles, mealy bug, beet armyworm, aphids moth larvae, mushroom flies, leafminers, caterpillars, locust, nematodes etc. Azadiractin is non-toxic for mammals, birds, earthworms and some beneficial insects. Nimbin is known for antiseptic, anti-inflammatory, antipyretic, and fungicidal properties and also used in cosmetic and skin care products.",
   },

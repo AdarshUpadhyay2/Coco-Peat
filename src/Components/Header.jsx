@@ -54,8 +54,11 @@ const Header = () => {
     setHamburgerMenuOpen((prev) => !prev);
   };
 
+<<<<<<< HEAD
   const slugify = (name) => name.toLowerCase().replace(/ /g, "-");
 
+=======
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   return (
     <>
       {/* Small Header */}
@@ -208,7 +211,11 @@ const Header = () => {
                   ].map((item, index) => (
                     <React.Fragment key={index}>
                       <Link
+<<<<<<< HEAD
                         to={`/application/${slugify(item)}`}
+=======
+                        to={`/application/${index + 1}`}
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
                         className="block px-4 py-2 text-sm text-white hover:bg-hoverGreen hover:text-footerGreen"
                       >
                         {item}
@@ -263,7 +270,11 @@ const Header = () => {
                   ].map((item, index) => (
                     <React.Fragment key={index}>
                       <Link
+<<<<<<< HEAD
                         to={`/product/${slugify(item)}`}
+=======
+                        to={`/product/${index + 19}`}
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
                         className="block px-4 py-2 text-sm text-white hover:bg-hoverGreen hover:text-footerGreen"
                       >
                         {item}
@@ -352,7 +363,11 @@ const Header = () => {
                     "Natural Plant Protection",
                   ].map((item, index) => (
                     <Link
+<<<<<<< HEAD
                       to={`/application/${slugify(item)}`}
+=======
+                      to={`/application/${index + 1}`}
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
                       className="block py-1 text-white"
                       key={index}
                       onClick={() => setHamburgerMenuOpen(false)}
@@ -386,7 +401,11 @@ const Header = () => {
                     "Plant Protection",
                   ].map((item, index) => (
                     <Link
+<<<<<<< HEAD
                       to={`/product/${slugify(item)}`}
+=======
+                      to={`/product/${index + 19}`}
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
                       className="block py-1 text-white"
                       key={index}
                       onClick={() => setHamburgerMenuOpen(false)}

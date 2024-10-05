@@ -15,7 +15,11 @@ const productData = [
     price: 99.0,
     category: "Coco Substrates",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-1.png",
+=======
+      "../../public/img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 2,
@@ -23,7 +27,11 @@ const productData = [
     price: 299.0,
     category: "Coco Substrates",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/CocoSubstrates/CocoSubstrateFiber.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 3,
@@ -31,7 +39,11 @@ const productData = [
     price: 299.0,
     category: "Coco Substrates",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/CocoSubstrates/husk-chip-mix.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 4,
@@ -39,7 +51,11 @@ const productData = [
     price: 299.0,
     category: "Coco Substrates",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 5,
@@ -47,7 +63,11 @@ const productData = [
     price: 299.0,
     category: "Coco Substrates",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/CocoSubstrates/CocoSubstratesBuffered.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 6,
@@ -55,7 +75,11 @@ const productData = [
     price: 299.0,
     category: "Growbags",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/GrowBags/BarType.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 7,
@@ -63,7 +87,11 @@ const productData = [
     price: 299.0,
     category: "Growbags",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/GrowBags/OpenTop.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 8,
@@ -71,7 +99,11 @@ const productData = [
     price: 299.0,
     category: "Coir Fiber",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/CoirFiber/Bales.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 9,
@@ -79,7 +111,11 @@ const productData = [
     price: 299.0,
     category: "Coir Fiber",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/CoirFiber/TwistedSpool.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 10,
@@ -87,7 +123,11 @@ const productData = [
     price: 299.0,
     category: "Garden Articles",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/GardenArticles/CocoBasket.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 11,
@@ -95,7 +135,11 @@ const productData = [
     price: 299.0,
     category: "Garden Articles",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/GardenArticles/CocoBricks.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 12,
@@ -103,7 +147,11 @@ const productData = [
     price: 299.0,
     category: "Garden Articles",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/GardenArticles/CocoPot.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 13,
@@ -111,7 +159,11 @@ const productData = [
     price: 299.0,
     category: "Garden Articles",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/GardenArticles/CocoDisks.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 14,
@@ -119,7 +171,11 @@ const productData = [
     price: 299.0,
     category: "Garden Articles",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/GardenArticles/CocoGrowKit.webp",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 15,
@@ -127,7 +183,11 @@ const productData = [
     price: 299.0,
     category: "Erosion Control",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/ErosionControl/CoirLogs.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 16,
@@ -135,7 +195,11 @@ const productData = [
     price: 299.0,
     category: "Erosion Control",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/ErosionControl/GeoTextiles.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 17,
@@ -143,7 +207,11 @@ const productData = [
     price: 299.0,
     category: "Plant Protection",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/PlantProtection/NeemOil.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
   {
     id: 18,
@@ -151,7 +219,11 @@ const productData = [
     price: 299.0,
     category: "Plant Protection",
     image:
+<<<<<<< HEAD
       "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+=======
+      "../../public/img/Product/PlantProtection/NeemSeedPowder.png",
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
   },
 ];
 

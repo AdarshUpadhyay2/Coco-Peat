@@ -19,144 +19,126 @@ const Products = () => {
       name: "Coco Substrate Custom Mix",
       price: 99.0,
       category: "Coco Substrates",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-1.png",
+      image: "img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
     },
     {
       id: 2,
       name: "Coco Substrate Fiber",
       price: 299.0,
       category: "Coco Substrates",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/CocoSubstrates/CocoSubstrateFiber.png",
     },
     {
       id: 3,
-      name: "Coco Substrate Husk Chip Mix",
+      name: "Coco Husk Chip Mix",
       price: 299.0,
       category: "Coco Substrates",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/CocoSubstrates/husk-chip-mix.png",
     },
     {
       id: 4,
       name: "Coco Substrate Fine/Coarse",
       price: 299.0,
       category: "Coco Substrates",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
     },
     {
       id: 5,
       name: "Coco Substrates Buffered",
       price: 299.0,
       category: "Coco Substrates",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/CocoSubstrates/CocoSubstratesBuffered.png",
     },
     {
       id: 6,
       name: "GrowBags Bar Type",
       price: 299.0,
       category: "Growbags",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/GrowBags/BarType.png",
     },
     {
       id: 7,
-      name: "Open Top GrowBags",
+      name: "GrowBags Open Top",
       price: 299.0,
       category: "Growbags",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/GrowBags/OpenTop.png",
     },
     {
       id: 8,
       name: "Coir Fiber Bales",
       price: 299.0,
       category: "Coir Fiber",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/CoirFiber/Bales.png",
     },
     {
       id: 9,
       name: "Coir Fiber Twisted Spool",
       price: 299.0,
       category: "Coir Fiber",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/CoirFiber/TwistedSpool.png",
     },
     {
       id: 10,
       name: "Coco Basket",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/GardenArticles/CocoBasket.png",
     },
     {
       id: 11,
       name: "Coco Bricks",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/GardenArticles/CocoBricks.png",
     },
     {
       id: 12,
       name: "Coco Pot",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/GardenArticles/CocoPot.png",
     },
     {
       id: 13,
-      name: "Coco Tabs or Disk",
+      name: "Coco Disks",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/GardenArticles/CocoDisks.png",
     },
     {
       id: 14,
-      name: "Growkit",
+      name: "Coco Growkit",
       price: 299.0,
       category: "Garden Articles",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/GardenArticles/CocoGrowKit.webp",
     },
     {
       id: 15,
       name: "Coir Logs",
       price: 299.0,
       category: "Erosion Control",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/ErosionControl/CoirLogs.png",
     },
     {
       id: 16,
       name: "Geo Textiles",
       price: 299.0,
       category: "Erosion Control",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/ErosionControl/GeoTextiles.png",
     },
     {
       id: 17,
       name: "Neem Oil",
       price: 299.0,
       category: "Plant Protection",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/PlantProtection/NeemOil.png",
     },
     {
       id: 18,
       name: "Neem Seed Powder",
       price: 299.0,
       category: "Plant Protection",
-      image:
-        "https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/item-cards/4/product-2.png",
+      image: "img/Product/PlantProtection/NeemSeedPowder.png",
     },
   ];
 
@@ -169,7 +151,6 @@ const Products = () => {
       : productData.filter((product) => product.category === selectedCategory);
 
   const slugify = (name) => name.toLowerCase().replace(/ /g, "-");
-
   return (
     <section className="py-12 mx-auto sm:py-16 lg:py-20">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">

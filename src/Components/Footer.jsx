@@ -16,8 +16,12 @@ const Footer = () => {
               alt="Company Logo"
             />
             <p className="text-base leading-relaxed text-white mt-7 text-center">
+<<<<<<< HEAD
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
               amet sint. Velit officia consequat duis enim velit mollit.
+=======
+            KoreAgro delivers sustainable solutions with renewable coco and coir products designed for the horticultural industry.
+>>>>>>> 71665aae09b76c508e59036e4f3408f1663aacf5
             </p>
             <ul className="flex items-center space-x-4 mt-9 justify-center">
               {/* Facebook */}

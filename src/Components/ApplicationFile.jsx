@@ -29,7 +29,7 @@ const ApplicationFile = [
   },
   {
     id: 3,
-    name: "Seed germination",
+    name: "Seed Germination",
     brand: "Kore",
     description:
       "Kokosflora offers coco substrate based growing medium (Coco disks / tabs) that offer excellent drainage and aeration properties for healthy seed germination and strong rooting. It is free from pathogens, weeds and contaminations that affect seed germination.",
