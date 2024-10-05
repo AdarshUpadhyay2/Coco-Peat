@@ -28,7 +28,7 @@ const Hero = () => {
               {" "}
               {/* Centered text */}
               <h1 className="text-white text-3xl md:text-6xl font-bold mb-10 animate-slideInDown">
-              Coco Peat for Stronger, Greener Growth.
+              Coco Peat for Stronger, Greener Growth
               </h1>
               <div className="flex justify-center">
                 <Link
@@ -60,7 +60,7 @@ const Hero = () => {
               {" "}
               {/* Centered text */}
               <h1 className="text-white text-3xl md:text-6xl font-bold mb-10 animate-slideInDown">
-              Sustainable Farming Starts Here.
+              Sustainable Farming Starts Here
               </h1>
               <div className="flex justify-center">
                 <Link
