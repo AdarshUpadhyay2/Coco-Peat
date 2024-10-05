@@ -76,7 +76,7 @@ const Header = () => {
           {/* Email Icon */}
           <div className="flex items-center text-sm font-normal">
             <i className="fas fa-envelope mr-2"></i>
-            tech@koreagro.com
+            pratik@koreagro.com
           </div>
         </div>
         {/* Social Media Section */}
@@ -86,7 +86,7 @@ const Header = () => {
             {/* Facebook */}
             <li>
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/scaimpex/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footerGreen text-lg transition-all duration-200 hover:text-[#1877F2]"
@@ -97,7 +97,7 @@ const Header = () => {
             {/* Twitter */}
             <li>
               <a
-                href="https://www.twitter.com"
+                href="https://www.twitter.com/kore-agro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footerGreen text-lg transition-all duration-200 hover:text-[#1DA1F2]"
@@ -108,7 +108,7 @@ const Header = () => {
             {/* Instagram */}
             <li>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/kore_agro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footerGreen text-lg transition-all duration-200 hover:text-[#E1306C]"
@@ -119,7 +119,7 @@ const Header = () => {
             {/* LinkedIn */}
             <li>
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/company/kore-international/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footerGreen text-lg transition-all duration-200 hover:text-[#0077B5]"

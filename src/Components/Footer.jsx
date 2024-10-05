@@ -23,7 +23,7 @@ const Footer = () => {
               {/* Facebook */}
               <li>
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.facebook.com/scaimpex"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -33,7 +33,7 @@ const Footer = () => {
               {/* Twitter */}
               <li>
                 <a
-                  href="https://www.twitter.com"
+                  href="https://www.twitter.com/kore-agro"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -43,7 +43,7 @@ const Footer = () => {
               {/* Instagram */}
               <li>
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/kore_agro"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -53,7 +53,7 @@ const Footer = () => {
               {/* LinkedIn */}
               <li>
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/company/kore-international"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -73,11 +73,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center text-base text-white">
                 <i className="fas fa-phone-alt mr-4"></i>
-                +0123456789
+                +91 9974111225
               </li>
               <li className="flex items-center text-base text-white">
                 <i className="fas fa-envelope mr-4"></i>
-                tech@koreagro.com
+                pratik@koreagro.com
               </li>
             </ul>
           </div>

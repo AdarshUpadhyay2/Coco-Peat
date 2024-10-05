@@ -83,7 +83,7 @@ const ContactUs = () => {
                         />
                       </svg>
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
-                        470-601-1911
+                        +91 9974111225
                       </h5>
                     </a>
                     <a href="javascript:;" className="flex items-center mb-6">
@@ -102,7 +102,7 @@ const ContactUs = () => {
                         />
                       </svg>
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
-                        koreagro@gmail.com
+                        pratik@koreagro.com
                       </h5>
                     </a>
                     <a href="javascript:;" className="flex items-center">
@@ -125,7 +125,8 @@ const ContactUs = () => {
                         />
                       </svg>
                       <h5 className="text-black text-base font-normal leading-6 ml-5">
-                        470-601-1911
+                        Kore International A-441, WestBank Ashram Road,
+                        Ahmedabad, Gujarat, India - 380009
                       </h5>
                     </a>
                   </div>
