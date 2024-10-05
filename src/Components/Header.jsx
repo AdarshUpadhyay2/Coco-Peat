@@ -106,7 +106,7 @@ const Header = () => {
             {/* Instagram */}
             <li>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/kore_agro/?igsh=N3VsYXMyNGQ0bHB1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footerGreen text-lg transition-all duration-200 hover:text-[#E1306C]"
@@ -117,7 +117,7 @@ const Header = () => {
             {/* LinkedIn */}
             <li>
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/company/kore-international/posts/?feedView=all"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footerGreen text-lg transition-all duration-200 hover:text-[#0077B5]"
