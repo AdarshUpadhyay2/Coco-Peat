@@ -5,7 +5,7 @@ const categoriesData = [
       "Coco Substrate Custom Mix",
       "Coco Substrate Fiber",
       "Coco Substrate Husk Chip Mix",
-      "Coco Substrate Fine/Coarse",
+      "Coco Substrate Fine or Coarse",
       "Coco Substrates Buffered",
     ],
   },

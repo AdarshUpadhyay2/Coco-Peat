@@ -23,7 +23,7 @@ const slides = {
       title: "Coco Substrate Husk Chip Mix",
     },
   ],
-  "Coco Substrate Fine/Coarse": [
+  "Coco Substrate Fine or Coarse": [
     {
       imgSrc: "/img/Slides/slide5.jpg",
       title: "Coco Substrate Fine/Coarse",
@@ -32,7 +32,7 @@ const slides = {
   "Coco Substrates Buffered": [
     {
       imgSrc: "/img/Slides/slide6.jpg",
-      title: "",
+      title: "Coco Substrates Buffered",
     },
   ],
   "Coir Fiber": [
