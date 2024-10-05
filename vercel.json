@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/product/:slug*", "destination": "/index.html" },
+    { "source": "/application/:slug*", "destination": "/index.html" }
+  ]
+}
