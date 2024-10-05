@@ -64,7 +64,7 @@ const About = () => {
               Together, let's cultivate a greener future.
             </p>
             <Link
-              className="inline-block rounded-full bg-footerGreen text-white px-6 py-3 mt-4"
+              className="inline-block rounded-full bg-buttonBrown text-white px-6 py-3 mt-4"
               to="/about"
             >
               Read More

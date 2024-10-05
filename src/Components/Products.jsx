@@ -172,7 +172,7 @@ const Products = ({ cat = "Coco Substrates" }) => {
               onClick={() => setSelectedCategory(category)}
               className={`mx-4 my-4 px-4 py-2 rounded-full ${
                 selectedCategory === category
-                  ? "bg-footerGreen text-white"
+                  ? "bg-buttonBrown text-white"
                   : "bg-buttonGreen text-white"
               }`}
             >
@@ -192,7 +192,7 @@ const Products = ({ cat = "Coco Substrates" }) => {
                 />
               </div>
               <div className="absolute left-3 top-3">
-                <p className="sm:px-3 sm:py-1.5 px-1.5 py-1 text-[8px] sm:text-xs font-bold tracking-wide text-gray-900 uppercase bg-white rounded-full">
+                <p className="sm:px-3 sm:py-1.5 px-1.5 py-1 text-[8px] sm:text-xs font-bold tracking-wide text-gray-900 uppercase bg-tagGreen rounded-full">
                   New
                 </p>
               </div>

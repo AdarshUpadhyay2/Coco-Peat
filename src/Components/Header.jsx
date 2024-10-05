@@ -137,7 +137,7 @@ const Header = () => {
           isSmallHeaderVisible ? "top-[35px]" : "top-0"
         }`}
       >
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-full">
           <div className="flex items-center justify-between h-16 lg:h-[80px]">
             <div className="flex items-center flex-shrink-0 ml-1 lg:ml-0">
               <Link to="/" title="" className="inline-flex">
