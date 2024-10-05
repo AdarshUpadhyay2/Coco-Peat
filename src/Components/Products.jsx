@@ -20,7 +20,7 @@ const Products = () => {
       price: 99.0,
       category: "Coco Substrates",
       image:
-        "../../public/img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
+        "img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ const Products = () => {
       price: 299.0,
       category: "Coco Substrates",
       image:
-        "../../public/img/Product/CocoSubstrates/CocoSubstrateFiber.png",
+        "img/Product/CocoSubstrates/CocoSubstrateFiber.png",
     },
     {
       id: 3,
@@ -36,7 +36,7 @@ const Products = () => {
       price: 299.0,
       category: "Coco Substrates",
       image:
-        "../../public/img/Product/CocoSubstrates/husk-chip-mix.png",
+        "img/Product/CocoSubstrates/husk-chip-mix.png",
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ const Products = () => {
       price: 299.0,
       category: "Coco Substrates",
       image:
-        "../../public/img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
+        "img/Product/CocoSubstrates/cooc-fine-coarses.jpeg",
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ const Products = () => {
       price: 299.0,
       category: "Coco Substrates",
       image:
-        "../../public/img/Product/CocoSubstrates/CocoSubstratesBuffered.png",
+        "img/Product/CocoSubstrates/CocoSubstratesBuffered.png",
     },
     {
       id: 6,
@@ -60,7 +60,7 @@ const Products = () => {
       price: 299.0,
       category: "Growbags",
       image:
-        "../../public/img/Product/GrowBags/BarType.png",
+        "img/Product/GrowBags/BarType.png",
     },
     {
       id: 7,
@@ -68,7 +68,7 @@ const Products = () => {
       price: 299.0,
       category: "Growbags",
       image:
-        "../../public/img/Product/GrowBags/OpenTop.png",
+        "img/Product/GrowBags/OpenTop.png",
     },
     {
       id: 8,
@@ -76,7 +76,7 @@ const Products = () => {
       price: 299.0,
       category: "Coir Fiber",
       image:
-        "../../public/img/Product/CoirFiber/Bales.png",
+        "img/Product/CoirFiber/Bales.png",
     },
     {
       id: 9,
@@ -84,7 +84,7 @@ const Products = () => {
       price: 299.0,
       category: "Coir Fiber",
       image:
-        "../../public/img/Product/CoirFiber/TwistedSpool.png",
+        "img/Product/CoirFiber/TwistedSpool.png",
     },
     {
       id: 10,
@@ -92,7 +92,7 @@ const Products = () => {
       price: 299.0,
       category: "Garden Articles",
       image:
-        "../../public/img/Product/GardenArticles/CocoBasket.png",
+        "img/Product/GardenArticles/CocoBasket.png",
     },
     {
       id: 11,
@@ -100,7 +100,7 @@ const Products = () => {
       price: 299.0,
       category: "Garden Articles",
       image:
-        "../../public/img/Product/GardenArticles/CocoBricks.png",
+        "img/Product/GardenArticles/CocoBricks.png",
     },
     {
       id: 12,
@@ -108,7 +108,7 @@ const Products = () => {
       price: 299.0,
       category: "Garden Articles",
       image:
-        "../../public/img/Product/GardenArticles/CocoPot.png",
+        "img/Product/GardenArticles/CocoPot.png",
     },
     {
       id: 13,
@@ -116,7 +116,7 @@ const Products = () => {
       price: 299.0,
       category: "Garden Articles",
       image:
-        "../../public/img/Product/GardenArticles/CocoDisks.png",
+        "img/Product/GardenArticles/CocoDisks.png",
     },
     {
       id: 14,
@@ -124,7 +124,7 @@ const Products = () => {
       price: 299.0,
       category: "Garden Articles",
       image:
-        "../../public/img/Product/GardenArticles/CocoGrowKit.webp",
+        "img/Product/GardenArticles/CocoGrowKit.webp",
     },
     {
       id: 15,
@@ -132,7 +132,7 @@ const Products = () => {
       price: 299.0,
       category: "Erosion Control",
       image:
-        "../../public/img/Product/ErosionControl/CoirLogs.png",
+        "img/Product/ErosionControl/CoirLogs.png",
     },
     {
       id: 16,
@@ -140,7 +140,7 @@ const Products = () => {
       price: 299.0,
       category: "Erosion Control",
       image:
-        "../../public/img/Product/ErosionControl/GeoTextiles.png",
+        "img/Product/ErosionControl/GeoTextiles.png",
     },
     {
       id: 17,
@@ -148,7 +148,7 @@ const Products = () => {
       price: 299.0,
       category: "Plant Protection",
       image:
-        "../../public/img/Product/PlantProtection/NeemOil.png",
+        "img/Product/PlantProtection/NeemOil.png",
     },
     {
       id: 18,
@@ -156,7 +156,7 @@ const Products = () => {
       price: 299.0,
       category: "Plant Protection",
       image:
-        "../../public/img/Product/PlantProtection/NeemSeedPowder.png",
+        "img/Product/PlantProtection/NeemSeedPowder.png",
     },
   ];  
 

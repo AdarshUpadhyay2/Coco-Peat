@@ -24,9 +24,9 @@ const ProductFile = [
     ],
     price: 20.0,
     images: [
-      "../../public/img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
-      "../../public/img/Product/CocoSubstrates/img1.webp",
-      "../../public/img/Product/CocoSubstrates/img2.png",
+      "img/Product/CocoSubstrates/CocoSubstrateCustomMix.png",
+      "img/Product/CocoSubstrates/img1.webp",
+      "img/Product/CocoSubstrates/img2.png",
     ],
     application: [
       "Horticultural applications for enhanced soil hydration and drainage.",
@@ -68,7 +68,7 @@ const ProductFile = [
       { property: "Moisture", value: "15%" },
     ],
     price: 15.0,
-    images: ["../../public/img/Product/CocoSubstrates/CocoSubstrateFiber.png",],
+    images: ["img/Product/CocoSubstrates/CocoSubstrateFiber.png",],
     application: [
       "Ideal for improving soil aeration and drainage in horticulture.",
       "Used as a component in potting mixes.",
@@ -104,7 +104,7 @@ const ProductFile = [
     ],
     price: 18.0,
     images: [
-      "../../public/img/Product/CocoSubstrates/husk-chip-mix.png", // Replace with an actual image URL
+      "img/Product/CocoSubstrates/husk-chip-mix.png", // Replace with an actual image URL
     ],
     application: [
       "Enhances water retention and drainage for optimal root growth.",
@@ -146,7 +146,7 @@ const ProductFile = [
     ],
     price: 17.0,
     images: [
-      "../../public/img/Product/CocoSubstrates/cooc-fine-coarses.jpeg", // Replace with an actual image URL
+      "img/Product/CocoSubstrates/cooc-fine-coarses.jpeg", // Replace with an actual image URL
     ],
     application: [
       "Used for improving soil hydration and aeration.",
@@ -191,7 +191,7 @@ const ProductFile = [
     ],
     price: 16.0,
     images: [
-      "../../public/img/Product/CocoSubstrates/CocoSubstratesBuffered.png", // Replace with an actual image URL
+      "img/Product/CocoSubstrates/CocoSubstratesBuffered.png", // Replace with an actual image URL
     ],
     application: [
       "Improves drainage and aeration for optimal root growth.",
@@ -226,7 +226,7 @@ const ProductFile = [
     ],
     price: 40.0,
     images: [
-      "../../public/img/Product/CoirFiber/Bales.png", // Replace with an actual image URL
+      "img/Product/CoirFiber/Bales.png", // Replace with an actual image URL
     ],
     application: [
       "Used in upholstery.",
@@ -257,7 +257,7 @@ const ProductFile = [
     ],
     price: 35.0,
     images: [
-      "../../public/img/Product/CoirFiber/TwistedSpool.png", // Replace with an actual image URL
+      "img/Product/CoirFiber/TwistedSpool.png", // Replace with an actual image URL
     ],
     application: [
       "Used in upholstery.",
@@ -282,7 +282,7 @@ const ProductFile = [
     ],
     price: 25.0, // Adjust price as needed
     images: [
-      "../../public/img/Product/ErosionControl/CoirLogs.png", // Replace with an actual image URL
+      "img/Product/ErosionControl/CoirLogs.png", // Replace with an actual image URL
     ],
     application: [
       "Hill slope stabilization.",
@@ -311,7 +311,7 @@ const ProductFile = [
     ],
     price: 30.0, // Adjust price as needed
     images: [
-      "../../public/img/Product/ErosionControl/GeoTextiles.png", // Replace with an actual image URL
+      "img/Product/ErosionControl/GeoTextiles.png", // Replace with an actual image URL
     ],
     application: [
       "Reforestation.",
@@ -337,7 +337,7 @@ const ProductFile = [
     ],
     price: 25.0, // Adjust price as needed
     images: [
-      "../../public/img/Product/GardenArticles/CocoBasket.png", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoBasket.png", // Replace with an actual image URL
     ],
     application: [
       "Indoor at home or office.",
@@ -369,7 +369,7 @@ const ProductFile = [
       { property: "Moisture", value: "15%" },
     ],
     images: [
-      "../../public/img/Product/GardenArticles/CocoBricks.png", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoBricks.png", // Replace with an actual image URL
     ],
     benefits: [
       "Coco substrate as a growing medium provides optimum drainage and aeration conditions for seed germination.",
@@ -404,7 +404,7 @@ const ProductFile = [
       { property: "Bottom diameter (cm)", value: "3.5 / 5 / 7.5 / 11 / 19" },
     ],
     images: [
-      "../../public/img/Product/GardenArticles/CocoPot.png", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoPot.png", // Replace with an actual image URL
     ],
     benefits: [
       "Coco germination pot with young saplings can be directly planted into soil, avoiding transplantation shocks and root damages.",
@@ -440,7 +440,7 @@ const ProductFile = [
       },
     ],
     images: [
-      "../../public/img/Product/GardenArticles/CocoDisks.png", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoDisks.png", // Replace with an actual image URL
     ],
     benefits: [
       "Coco substrate provides optimum drainage and aeration conditions for seed germination.",
@@ -478,7 +478,7 @@ const ProductFile = [
       { property: "Outer cover", value: "Recycled paper" },
     ],
     images: [
-      "../../public/img/Product/GardenArticles/CocoGrowKit.png", // Replace with an actual image URL
+      "img/Product/GardenArticles/CocoGrowKit.png", // Replace with an actual image URL
     ],
     application: [
       "Educational gardening kit for children.",
@@ -513,7 +513,7 @@ const ProductFile = [
       },
     ],
     images: [
-      "../../public/img/Product/GrowBags/BarType.png", // Replace with an actual image URL
+      "img/Product/GrowBags/BarType.png", // Replace with an actual image URL
     ],
     suitableFor: [
       "Vegetables like Tomato, Capsicum, Zucchini, Brinjal, etc.",
@@ -563,7 +563,7 @@ const ProductFile = [
       },
     ],
     images: [
-      "../../public/img/Product/GrowBags/OpenTop.png", // Replace with an actual image URL
+      "img/Product/GrowBags/OpenTop.png", // Replace with an actual image URL
     ],
     suitableFor: [
       "Vegetables like Tomato, Capsicum, Zucchini, Brinjal, etc.",
@@ -593,7 +593,7 @@ const ProductFile = [
       "Neem oil is extracted from cold pressing neem seeds. It has a strong odor and bitter taste, with a brownish-yellow color. Key ingredients of neem oil include Azadirachtin and Nimbin. Azadirachtin is a known biopesticide used to control various pests such as cabbage worms, thrips, whiteflies, mites, fungus gnats, beetles, mealybugs, beet armyworms, aphids, moth larvae, mushroom flies, leafminers, caterpillars, locusts, and nematodes. Azadirachtin is non-toxic to mammals, birds, earthworms, and some beneficial insects. Nimbin is known for its antiseptic, anti-inflammatory, antipyretic, and fungicidal properties and is used in cosmetic and skincare products.",
     specifications: [],
     images: [
-      "../../public/img/Product/PlantProtection/NeemOil.png", // Replace with an actual image URL
+      "img/Product/PlantProtection/NeemOil.png", // Replace with an actual image URL
     ],
     application: ["Organic farming", "Cosmetic and skincare products"],
     delivery: [
@@ -609,7 +609,7 @@ const ProductFile = [
       "Neem seed cake is a by-product of neem oil extraction from neem seeds. It is used as organic manure to enhance soil quality in gardening and contains good antifungal and pest-repellent properties due to residual Azadirachtin and Nimbin. Neem seed cake also stabilizes the alkalinity of soil by releasing organic acids upon decomposition. It is compatible with and supports soil microflora, such as rhizosphere, for better nutrition absorption and root development.",
     specifications: [],
     images: [
-      "../../public/img/Product/PlantProtection/NeemSeedPowder.png", // Replace with an actual image URL
+      "img/Product/PlantProtection/NeemSeedPowder.png", // Replace with an actual image URL
     ],
     types: ["Cake", "Powder", "Pellets"],
     application: ["Horticulture", "Organic farming"],
